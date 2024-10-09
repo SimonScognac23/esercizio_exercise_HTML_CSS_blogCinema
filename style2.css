@@ -1,0 +1,133 @@
+/* Stile generale per il corpo */
+body {
+    font-family: "Roboto", sans-serif;
+    /* Imposta il font principale per il corpo della pagina */
+    color: #000;
+    /* Colore del testo predefinito */
+}
+
+/* Regole per il footer */
+footer {
+    background-color: #343a40;
+    /* Colore di sfondo scuro per il footer */
+    color: #f8f9fa;
+    /* Colore del testo chiaro per il footer */
+    text-align: center;
+    /* Testo centrato nel footer */
+    padding: 1rem 0;
+    /* Spaziatura verticale nel footer */
+}
+
+footer p {
+    margin: 0;
+    /* Rimuove il margine predefinito dai paragrafi nel footer */
+}
+
+footer a {
+    color: #f8f9fa;
+    /* Colore del testo per i link nel footer */
+    text-decoration: none;
+    /* Rimuove la sottolineatura dai link nel footer */
+    transition: color 0.3s;
+    /* Aggiunge una transizione quando il colore cambia */
+}
+
+
+
+footer .bi {
+    font-size: 1.5rem;
+    /* Dimensione delle icone nel footer */
+}
+
+footer .mx-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* Spaziatura orizzontale per le icone */
+}
+
+/* Stile per titoli e testo */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Roboto", sans-serif;
+    /* Imposta il font "Roboto" per i titoli */
+    font-weight: 900;
+    /* Imposta il peso dei titoli su 900 (bold) */
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    /* Imposta il font "Roboto" per i paragrafi */
+}
+
+span,
+a {
+    font-family: "Poppins", sans-serif;
+    /* Imposta il font "Poppins" per gli span e i link */
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+    /* Imposta il font "Roboto" per le etichette */
+}
+
+/* Stile per il testo personalizzato */
+.text-deep-white {
+    color: white;
+    /* Colore bianco per il testo */
+    font-weight: bold;
+    /* Peso del testo bold */
+}
+
+.text-bold {
+    font-weight: 900;
+    /* Peso massimo del testo */
+}
+
+/* Stile per la sezione "hero" */
+.hero {
+    height: 100vh;
+    /* Imposta l'altezza della sezione a 100% della viewport */
+    background: url('https://www.adorama.com/alc/wp-content/uploads/2017/08/shutterstock_479963272.jpg') no-repeat center center;
+    /* Immagine di sfondo centrata */
+    background-size: cover;
+    /* Copre l'intera area della sezione con l'immagine */
+    display: flex;
+    /* Abilita il flexbox per la disposizione degli elementi */
+    align-items: center;
+    /* Centra verticalmente il contenuto della sezione */
+    justify-content: center;
+    /* Centra orizzontalmente il contenuto della sezione */
+    color: white;
+    /* Colore bianco per il testo */
+    text-align: center;
+    /* Testo centrato */
+}
+
+
+.img-carousel {
+    height: 300px;
+}
+
+
+
+
+
+/* Media query per schermi piccoli (cellulari) */
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+        /* Riduce l'altezza a 50% della viewport su cellulari */
+        background-size: contain;
+        /* Modifica l'immagine di sfondo per adattarsi meglio alla larghezza */
+        padding: 20px;
+        /* Aggiunge un po' di padding per il contenuto interno */
+        justify-content: flex-start;
+        /* Allinea il contenuto verso l'alto */
+        text-align: left;
+        /* Cambia l'allineamento del testo a sinistra per un look più mobile-friendly */
+    }
+
+}
