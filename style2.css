@@ -107,8 +107,15 @@ label {
 }
 
 
-.img-carousel {
-    height: 300px;
+
+
+.carousel {
+
+    width: 40%;
+}
+
+.accordion {
+    width: 40%;
 }
 
 
@@ -128,6 +135,11 @@ label {
         /* Allinea il contenuto verso l'alto */
         text-align: left;
         /* Cambia l'allineamento del testo a sinistra per un look più mobile-friendly */
+    }
+
+    .accordion,
+    .carousel {
+        width: 80%;
     }
 
 }

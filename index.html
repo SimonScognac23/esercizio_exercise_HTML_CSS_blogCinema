@@ -154,56 +154,59 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row justify-content-center">
-                    <!-- Titolo della sezione Altri Film, centrato -->
-                    <h2 class="text-center">Altri Film</h2>
 
-                    <!-- Griglia per il Carousel -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <!-- Prima immagine del carousel (attiva) -->
-                                <div class="carousel-item active">
-                                    <img src="https://th.bing.com/th/id/OIP.cDkJ2MmBeECMXzJ1g-qMNAHaLH?rs=1&pid=ImgDetMain"
-                                        class="d-block w-100" alt="Spaceballs 1987">
-                                </div>
-                                <!-- Seconda immagine del carousel -->
-                                <div class="carousel-item">
-                                    <img src="https://th.bing.com/th/id/R.ebbfa1c16d0007d34dc5e975a8bd7d78?rik=b1sxwQeMzAgE%2bQ&riu=http%3a%2f%2fmontaigne.altervista.org%2fwp-content%2fuploads%2f2015%2f05%2famerica-1.jpg&ehk=XV8wxNnYoYShY8Bq0tovE4Bpu%2fNglnyIYQfFz6vBKP0%3d&risl=1&pid=ImgRaw&r=0"
-                                        class="d-block w-100" alt="C'era una volta in America 1984">
-                                </div>
-                                <!-- Terza immagine del carousel -->
-                                <div class="carousel-item">
-                                    <img src="https://www.locchiodelcineasta.com/wp-content/uploads/2021/09/perunpugnodidollari-768x1080.jpg"
-                                        class="d-block w-100" alt="Per un pugno di dollari 1964">
-                                </div>
-                                <!-- Quarta immagine del carousel -->
-                                <div class="carousel-item">
-                                    <img src="https://th.bing.com/th/id/R.4805d6f9f80588f4ab05bf2d470931a8?rik=67tJd%2brE1dAe%2bg&riu=http%3a%2f%2f4.bp.blogspot.com%2f_3N0VetpYvQE%2fSxIAoNtD51I%2fAAAAAAAAAtI%2fXT6oHzzsizo%2fs1600%2fGran_Torino_3.jpg&ehk=X4jQ0%2fySFj4dCSblIH7t8WmOTlJyyiX9TLoUCoF4EBk%3d&risl=&pid=ImgRaw&r=0"
-                                        class="d-block w-100" alt="Gran Torino 2008">
-                                </div>
+
+
+            <!-- carousel-->
+            <section class="d-flex justify-content-center flex-column align-items-center my-5">
+                <h2>Altri Film</h2>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://th.bing.com/th/id/OIP.MDQx0i7xeNK9eFk07Mm10QHaLH?rs=1&pid=ImgDetMain"
+                                class="d-block w-100" alt="SpaceBalls">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-dark text-white">SpaceBalls (1987)</h5>
+
                             </div>
-                            <!-- Controlli del carousel -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                                data-bs-slide="prev">
-                                <i class="fa-solid fa-film" aria-hidden="true"></i>
-                                <span class="visually-hidden">Precedente</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                                data-bs-slide="next">
-                                <i class="fa-solid fa-film" aria-hidden="true"></i>
-                                <span class="visually-hidden">Successivo</span>
-                            </button>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://th.bing.com/th/id/OIP.K6gqZzqussTiIornKli_4QHaLH?rs=1&pid=ImgDetMain"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-dark text-white">Toy Story 2 (1999)</h5>
 
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://th.bing.com/th/id/R.5889d6813db58643afbfa4c4d86f70b7?rik=KQ5PWZyhm7mFRw&riu=http%3a%2f%2fcultura.biografieonline.it%2fwp-content%2fuploads%2f2012%2f09%2fla-vendetta-dei-sith.jpg&ehk=wK5toboeD5RUz9bUyBogT5%2fh9QtQUKIIHBwOflzEZ3Q%3d&risl=&pid=ImgRaw&r=0"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="bg-dark text-white">Star Wars episodio III (2005)</h5>
+
+                            </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-            </div>
-
-
-
-
+            </section>
 
 
 
@@ -282,70 +285,80 @@
     </div>
 
 
-    <div class="accordion accordion-flush mt-3" id="accordionExample">
-        <!-- Primo elemento dell'accordion -->
-        <div class="accordion-item bg-dark border-0">
-            <h2 class="accordion-header">
-                <!-- Pulsante per espandere/contrarre l'elemento -->
-                <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    Star Wars: La Trilogia Originale
-                </button>
-            </h2>
-            <!-- Contenuto espandibile -->
-            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body text-white bg-secondary">
-                    <strong>Trama:</strong> In una galassia lontana, l'Impero galattico cerca di schiacciare la
-                    Ribellione. Luke Skywalker, un giovane contadino, scopre il suo destino come Jedi e,
-                    insieme ai suoi amici Han Solo e la Principessa Leia, combatte contro il malvagio Darth Vader per
-                    ripristinare la pace.
+
+
+    <!--accordion-->
+    <section class="d-flex justify-content-center align-items-center flex-column my-4">
+        <h2 class="my-4">FAQ</h2>
+        <div class="accordion accordion-flush mt-3" id="accordionExample">
+            <!-- Primo elemento dell'accordion -->
+            <div class="accordion-item bg-dark border-0">
+                <h2 class="accordion-header">
+                    <!-- Pulsante per espandere/contrarre l'elemento -->
+                    <button class="accordion-button bg-dark text-white collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        Star Wars: La Trilogia Originale
+                    </button>
+                </h2>
+                <!-- Contenuto espandibile -->
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-white bg-secondary">
+                        <strong>Trama:</strong> In una galassia lontana, l'Impero galattico cerca di schiacciare la
+                        Ribellione. Luke Skywalker, un giovane contadino, scopre il suo destino come Jedi e,
+                        insieme ai suoi amici Han Solo e la Principessa Leia, combatte contro il malvagio Darth Vader
+                        per
+                        ripristinare la pace.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Secondo elemento dell'accordion -->
+            <div class="accordion-item bg-dark border-0">
+                <h2 class="accordion-header">
+                    <!-- Pulsante per espandere/contrarre l'elemento -->
+                    <button class="accordion-button bg-dark text-white collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        Alien: La Saga
+                    </button>
+                </h2>
+                <!-- Contenuto espandibile -->
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-white bg-secondary">
+                        <strong>Trama:</strong> L'astronave commerciale Nostromo risponde a un segnale misterioso su un
+                        pianeta remoto. L'equipaggio si ritrova a bordo con una creatura aliena mortale.
+                        Ripley, l'unica sopravvissuta, lotta per la sua vita contro il feroce predatore.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Terzo elemento dell'accordion -->
+            <div class="accordion-item bg-dark border-0">
+                <h2 class="accordion-header">
+                    <!-- Pulsante per espandere/contrarre l'elemento -->
+                    <button class="accordion-button bg-dark text-white collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Il Signore degli Anelli
+                    </button>
+                </h2>
+                <!-- Contenuto espandibile -->
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-white bg-secondary">
+                        <strong>Trama:</strong> Frodo Baggins, un giovane hobbit, riceve l'Anello del Potere, un
+                        oggetto malvagio che Sauron vuole recuperare per conquistare il mondo. Insieme a una
+                        compagnia di eroi, Frodo cerca di distruggere l'Anello gettandolo nel Monte Fato.
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Secondo elemento dell'accordion -->
-        <div class="accordion-item bg-dark border-0">
-            <h2 class="accordion-header">
-                <!-- Pulsante per espandere/contrarre l'elemento -->
-                <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Alien: La Saga
-                </button>
-            </h2>
-            <!-- Contenuto espandibile -->
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body text-white bg-secondary">
-                    <strong>Trama:</strong> L'astronave commerciale Nostromo risponde a un segnale misterioso su un
-                    pianeta remoto. L'equipaggio si ritrova a bordo con una creatura aliena mortale.
-                    Ripley, l'unica sopravvissuta, lotta per la sua vita contro il feroce predatore.
-                </div>
-            </div>
-        </div>
-
-        <!-- Terzo elemento dell'accordion -->
-        <div class="accordion-item bg-dark border-0">
-            <h2 class="accordion-header">
-                <!-- Pulsante per espandere/contrarre l'elemento -->
-                <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Il Signore degli Anelli
-                </button>
-            </h2>
-            <!-- Contenuto espandibile -->
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body text-white bg-secondary">
-                    <strong>Trama:</strong> Frodo Baggins, un giovane hobbit, riceve l'Anello del Potere, un
-                    oggetto malvagio che Sauron vuole recuperare per conquistare il mondo. Insieme a una
-                    compagnia di eroi, Frodo cerca di distruggere l'Anello gettandolo nel Monte Fato.
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
 
 
 
-
+    <!--footer-->
     <footer class="bg-dark text-light text-center py-3 my-4">
         <!-- Informazioni sulla partita IVA -->
         <p>P.IVA: 12345678901</p>
